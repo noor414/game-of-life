@@ -495,4 +495,17 @@
             </reporting>
         </profile>
     </profiles>
+	<distributionmanagement>
+        <repository>
+            <id>release</id>
+            <name>Releases</name>
+            <url>http://localhost:8081/repository/Releases/</url>
+        </repository>
+        
+        <snapshotrepository>
+            <id>snapshots</id>
+            <name>snapshots</name>
+            <url>http://localhost:8081/repository/snapshots/</url>
+        </snapshotrepository>
+    </distributionmanagement>
 </project>
